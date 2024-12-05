@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map va Set</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Map va Set haqida tushuncha</h1>
+    </header>
+    <main>
+        <section class="section">
+            <h2>Map nima?</h2>
+            <p>
+                JavaScriptda <strong>Map</strong> ma'lumot tuzilmasi bo'lib, u kalit-qiymat juftlarini saqlash imkonini beradi.
+                Map-dagi kalitlar takrorlanmas va har qanday ma'lumot turida bo'lishi mumkin.
+            </p>
+            <div class="example">
+                <strong>Map misoli:</strong>
+                <pre><code>const myMap = new Map();
+myMap.set('kalit1', 'qiymat1');
+myMap.set('kalit2', 'qiymat2');
+console.log(myMap.get('kalit1')); // Natija: qiymat1</code></pre>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Set nima?</h2>
+            <p>
+                JavaScriptda <strong>Set</strong> takroriy qiymatlarni saqlamaydigan kolleksiya hisoblanadi. Bu noyob qiymatlarni saqlash uchun juda qulay vositadir.
+            </p>
+            <div class="example">
+                <strong>Set misoli:</strong>
+                <pre><code>const mySet = new Set();
+mySet.add(1);
+mySet.add(2);
+mySet.add(2); // Takroriy qiymat e'tiborga olinmaydi
+console.log(mySet); // Natija: Set { 1, 2 }</code></pre>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Map va Setning farqlari</h2>
+            <ul>
+                <li><strong>Maqsad:</strong> Map kalit-qiymat juftliklarini boshqaradi, Set esa noyob qiymatlarni saqlaydi.</li>
+                <li><strong>Tuzilishi:</strong> Map kalit va qiymatlardan tashkil topgan, Set faqat qiymatlardan iborat.</li>
+                <li><strong>Metodlar:</strong> Mapda <code>set</code>, <code>get</code>, <code>has</code>; Setda <code>add</code>, <code>delete</code>, <code>has</code>.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Map va Set haqida ma'lumot. Barcha huquqlar himoyalangan.</p>
+        <p>
+            <a href="https://www.instagram.com/oktmv23/profilecard/?igsh=YXcyODRrc3ZxbnAw"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://t.me/@oktmv23"><i class="fa-brands fa-telegram"></i> Telegram</a>
+        </p>
+    </footer>
+</body>
+</html>
